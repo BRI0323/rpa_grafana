@@ -124,6 +124,12 @@ def ENV():
     driver.get("http://10.100.1.60:3000/d/8v0mAh1Vk/huan-jing-datsushiyubodo-xin-xi?orgId=1&refresh=10s&kiosk=tv")
     driver.maximize_window()
     time.sleep(20)
+    driver.get("http://10.100.1.60:3000/d/fZqiZvT4k/huan-jing-datsushiyubodo-xian-tai?orgId=1&refresh=10s")
+    driver.maximize_window()
+    time.sleep(20)
+    driver.get("http://10.100.1.60:3000/d/0FoWNyr4z/huan-jing-datsushiyubodo-xian-tai-b?orgId=1&refresh=10s")
+    driver.maximize_window()
+    time.sleep(20)
 
 def HP():
     driver.get("https://www.read.co.jp/")
